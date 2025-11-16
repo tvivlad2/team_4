@@ -1,0 +1,634 @@
+.banner .content .text .logo .askExperts {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: semibold;
+    font-size: 30px;
+    line-height: 105%;
+    letter-spacing: 0%;
+    color: FFFFFF;
+}
+
+.banner .content .text .askExperts_Template {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: semibold;
+    font-size: 40px;
+    line-height: 129%;
+    letter-spacing: 0%;
+    color: FFFFFF;
+}
+
+.color .text {
+    font-family: Cabin;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 60;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    color: #181818;
+}
+
+.color .content .text .primary_01 {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .color_FFCC4A {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .primary_02 {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .color_4EAF4E {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .primary_03 {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .color_181818 {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .color_F5F5F5 {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .secondary_01 {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .color_FFFFFF {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.color .content .text .secondary_02 {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+}
+
+.text .header {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 60px;
+    line-height: 111.00000000000001%;
+    letter-spacing: 0%;
+    color: #030211;
+}
+
+.text .lato {
+    font-family: Lato;
+    color: #F9F9FA;
+}
+
+.text .lato .bold {
+    font-weight: 700;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+
+}
+
+.text .lato .semibold {
+    font-weight: 600;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.text .lato .medium {
+    font-weight: 500;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.text .lato .regular {
+    font-weight: 400;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.text .lato .lato {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 65px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+}
+
+.text .cabin {
+    font-family: cabin;
+    color: #F9F9FA;
+}
+
+.text .cabin .bold {
+    font-weight: 700;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.text .cabin .semibold {
+    font-weight: 600;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.text .cabin .medium {
+    font-weight: 500;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.text .cabin .regular {
+    font-weight: 400;
+    font-size: 26.92px;
+    line-height: 125%;
+    letter-spacing: 0px;
+}
+
+.text .cabin .cabin {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 58.33px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+}
+
+.text .google_fonts {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22.43px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: #B9B9B9;
+}
+
+.btn {
+    font-family: Cabin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    color: #181818;
+}
+
+.btn .default .miniheader {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.btn .default .btn-black {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background: #181818;
+}
+
+.btn .default .btn-yellow {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #181818;
+    background: #FFCC4A;
+}
+
+.btn .hover .miniheader {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.btn .hover .btn-white {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #181818;
+    background: #FFFFFF;
+    border: 2px solid #181818;
+}
+
+.btn .hover.btn-black {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background: #181818;
+}
+
+.web-design .content {
+    color: #181818;
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 60px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.web-design .text {
+    color: #FFFFFF;
+}
+
+.web-design .text .header1 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 46.51px;
+    line-height: 105%;
+    letter-spacing: 0%;
+}
+
+.web-design .text .header2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 30.27px;
+    line-height: 129%;
+    letter-spacing: 0%;
+}
+
+.form .banner .header1 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 61.46px;
+    line-height: 105%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.form .banner .header2 {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 25px;
+    line-height: 129%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form .banner .text {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 145%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form .profile .name {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0D161A;
+}
+
+.form .profile .bio {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #171214;
+}
+
+.form .follows .header {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #0D161A;
+}
+
+.form .follows .name {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #0D161A;
+}
+
+.form .follows .desc {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #646E79;
+}
+
+.form .info {
+    color: #0D161A;
+    font-family: Inter;
+}
+
+.form .info .header {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 119%;
+    letter-spacing: 0%;
+}
+
+.form .info .name1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.form .info .name1 span {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.form .info .name2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.form .info .desc {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #646E79;
+}
+
+.form .info .btn {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 22px;
+    line-height: 106%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #FFFFFF;
+}
+
+.form .images {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #202020;
+}
+
+.form .images .name {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #000000;
+}
+
+.form .images .desc {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.form .images .desc span {
+    font-family: Roboto;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0%;
+    text-decoration-thickness: 0%;
+}
+
+.form .fonts {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #202020;
+}
+
+.form .fonts .name {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 146%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.form .fonts .desc {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #646E79;
+}
+
+.form .fonts .desc span.free {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.form .fonts .desc span.whitespace {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.form .fonts .desc span.google_fonts {
+    font-family: Roboto;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #000000;
+}
+
+.form .bottom {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 119%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.form .bottom span {
+    font-family: Roboto;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 119%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 0%;
+    text-decoration-thickness: 0%;
+
+}
+
+.footer {
+    font-family: Syne;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer .heading {
+    font-size: 30px;
+    color: #C0C0C0;
+}
