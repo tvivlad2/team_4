@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(https://fonts.googleapis.com/css?family=Lato);
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url(https://fonts.googleapis.com/css?family=Cabin);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://fonts.googleapis.com/css?family=Montserrat);
+}
+
+.topbar {
+    color: #FFFFFF;
+}
+
+.topbar .time {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.topbar .location {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.header .logo {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 30px;
+    line-height: 105%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.header .menubar {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17.73px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.header .menubar .home {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17.73px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #5AB612;
+}
+
+.header .phone {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #353535;
+}
+
+.banner .displaytext {
+    font-family: Cabin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    color: #181818;
+}
+
+.paragraph .comment {
+    font-family: Cabin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.paragraph .comment .quotation_marks {
+    color: #FFCC4A;
+}
+
+.heading .heading_name {
+    font-family: Cabin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    color: #181818;
+}
+
+.heading .heading01 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.heading .heading02 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.heading .heading03 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.heading .heading04 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.heading .heading05 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.heading .heading06 {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.ordered-list .content {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 214%;
+    letter-spacing: 0%;
+    color: #595566;
+}
+
+.color .text {
+    font-family: Cabin;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 60;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+    color: #181818;
+}
+
+.color .content .text .primary {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+    color: #545454;
+}
+
+.color .content .text .color_name {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: 0%;
+    color: #143450;
+}
+
+.btn .default .miniheader {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.btn .default .btn-black {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background: #181818;
+}
+
+.btn .default .btn-yellow {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #181818;
+    background: #FFCC4A;
+}
+
+.btn .hover .miniheader {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.btn .hover .btn-white {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #181818;
+    background: #FFFFFF;
+    border: 2px solid #181818;
+}
+
+.btn .hover.btn-black {
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background: #181818;
+}
+
+.footer {
+    color: #FFFFFF;
+}
+
+.footer .logo .social_media {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+}
+
+.footer .title {
+    font-family: Cabin;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 115.99999999999999%;
+    letter-spacing: 0%;
+}
+
+.footer .ol {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: 0%;
+}
+
+.footer .copyright {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: 0%;
+}
