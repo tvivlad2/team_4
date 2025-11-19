@@ -17,7 +17,7 @@
     color: #FFFFFF;
 }
 
-.topbar .time {
+.topbar .time_and_location {
     font-family: Lato;
     font-weight: 400;
     font-style: Regular;
@@ -26,14 +26,6 @@
     letter-spacing: 0%;
 }
 
-.topbar .location {
-    font-family: Lato;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 14px;
-    line-height: 160%;
-    letter-spacing: 0%;
-}
 
 .header .logo {
     font-family: Cabin;
@@ -180,16 +172,6 @@
     color: #595566;
 }
 
-.color .text {
-    font-family: Cabin;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 60;
-    line-height: 115.99999999999999%;
-    letter-spacing: 0%;
-    color: #181818;
-}
-
 .color .content .text .primary {
     font-family: Lato;
     font-weight: 400;
@@ -279,7 +261,7 @@
     color: #FFFFFF;
 }
 
-.footer .logo .social_media {
+.footer .logo_title_social_media {
     font-family: Cabin;
     font-weight: 600;
     font-style: SemiBold;
@@ -288,25 +270,7 @@
     letter-spacing: 0%;
 }
 
-.footer .title {
-    font-family: Cabin;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 20px;
-    line-height: 115.99999999999999%;
-    letter-spacing: 0%;
-}
-
-.footer .ol {
-    font-family: Lato;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 16px;
-    line-height: 148%;
-    letter-spacing: 0%;
-}
-
-.footer .copyright {
+.footer .ol_and_copyright {
     font-family: Lato;
     font-weight: 400;
     font-style: Regular;
