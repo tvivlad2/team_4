@@ -13,20 +13,6 @@
     src: url(https://fonts.googleapis.com/css?family=Montserrat);
 }
 
-.topbar {
-    color: #FFFFFF;
-}
-
-.topbar .time_and_location {
-    font-family: Lato;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 14px;
-    line-height: 160%;
-    letter-spacing: 0%;
-}
-
-
 .header .logo {
     font-family: Cabin;
     font-weight: 600;
@@ -37,7 +23,7 @@
     color: #FFFFFF;
 }
 
-.header .menubar {
+.header .menubar_and_topbar {
     font-family: Lato;
     font-weight: 400;
     font-style: Regular;
@@ -65,16 +51,6 @@
     line-height: 160%;
     letter-spacing: 0%;
     color: #353535;
-}
-
-.banner .displaytext {
-    font-family: Cabin;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 50px;
-    line-height: 115.99999999999999%;
-    letter-spacing: 0%;
-    color: #181818;
 }
 
 .paragraph .comment {
@@ -192,7 +168,7 @@
     color: #143450;
 }
 
-.btn .default .miniheader {
+.btn .miniheader {
     font-family: Montserrat;
     font-weight: 600;
     font-style: SemiBold;
@@ -222,16 +198,6 @@
     letter-spacing: 0%;
     color: #181818;
     background: #FFCC4A;
-}
-
-.btn .hover .miniheader {
-    font-family: Montserrat;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 20px;
-    line-height: 130%;
-    letter-spacing: 0%;
-    color: #1C1C1C;
 }
 
 .btn .hover .btn-white {
