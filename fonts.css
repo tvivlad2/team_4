@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(https://fonts.googleapis.com/css?family=Lato);
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url(https://fonts.googleapis.com/css?family=Cabin);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://fonts.googleapis.com/css?family=Montserrat);
+}
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 0%;
+}
+
+.logo,
+.paragraph,
+.quotation_marks,
+.p-heading,
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6,
+.social_media {
+    font-family: Cabin;
+}
+
+.header,
+.menubar,
+.home,
+.phone,
+.content,
+.text,
+.color_name,
+.btn-black,
+.btn-yellow,
+.btn-white,
+.copyright {
+    font-family: Lato;
+}
+
+.miniheader {
+    font-family: Montserrat;
+}
+
+.logo {
+
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 30px;
+    line-height: 105%;
+    color: #FFFFFF;
+}
+
+.header,
+.menubar,
+.home {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17.73px;
+    line-height: 160%;
+}
+
+.menubar {
+    color: #FFFFFF;
+}
+
+.home {
+    color: #5AB612;
+}
+
+.phone {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+    color: #353535;
+}
+
+.paragraph,
+.quotation_marks {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.paragraph {
+    color: #FFFFFF;
+}
+
+.quotation_marks {
+    color: #FFCC4A;
+}
+
+.p-heading {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 115.99999999999999%;
+    color: #181818;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6 {
+    font-weight: 600;
+    font-style: SemiBold;
+    line-height: 130%;
+    color: #1C1C1C;
+}
+
+.heading1 {
+    font-size: 50px;
+}
+
+.heading2 {
+    font-size: 45px;
+}
+
+.heading3 {
+    font-size: 40px;
+}
+
+.heading4 {
+    font-size: 35px;
+}
+
+.heading5 {
+    font-size: 30px;
+}
+
+.heading6 {
+    font-size: 25px;
+}
+
+.content,
+.text {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+}
+
+.content {
+    line-height: 214%;
+    color: #595566;
+}
+
+.text {
+    line-height: 142%;
+    color: #545454;
+}
+
+.color_name {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 142%;
+    color: #143450;
+}
+
+.miniheader {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #1C1C1C;
+}
+
+.btn-black,
+.btn-yellow,
+.btn-white {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.btn-black {
+    color: #FFFFFF;
+    background: #181818;
+}
+
+.btn-yellow {
+    color: #181818;
+    background: #FFCC4A;
+}
+
+.btn-white {
+    color: #181818;
+    background: #FFFFFF;
+    border: 2px solid #181818;
+}
+
+
+.footer {
+    color: #FFFFFF;
+}
+
+.social_media {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 115.99999999999999%;
+}
+
+.copyright {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 148%;
+}
