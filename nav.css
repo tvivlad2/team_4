@@ -1,0 +1,149 @@
+.header-component {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ICONS */
+.hc-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    display: inline-block;
+}
+
+/* TOP BAR */
+.hc-topbar {
+    background: #111111;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hc-topbar-left,
+.hc-topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.hc-topbar-item {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.hc-topbar-item span {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hc-topbar-item img {
+    margin-right: 8px;
+}
+
+.hc-topbar-right a {
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+/* NAVBAR */
+.hc-navbar {
+    background: #2b2b2b;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.hc-logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.hc-logo-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.hc-logo-text {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;  /* medium */
+}
+
+/* MENU */
+.hc-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hc-menu li {
+    margin: 0 18px;
+    position: relative;
+}
+
+/* The small circle */
+.hc-menu li::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 11px;
+    left: -18px;
+    transform: translateY(-50%);
+}
+
+/* active = filled green */
+.hc-menu li.active::before {
+    background: #43d043;
+    border-color: #43d043;
+}
+
+.hc-menu a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.hc-menu li.active a {
+    color: #43d043;
+}
+
+/* CALL BUTTON */
+.hc-call-button {
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.hc-call-circle {
+    background: #f4ca37;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+}
+
+.hc-call-circle img {
+    width: 16px;
+    height: 16px;
+}
+
+.hc-call-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: #353535;
+}
