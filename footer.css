@@ -374,6 +374,7 @@
 
 .footer-container:before {
     content: '';
+    width:100%;
     position: absolute;
     top: -10px;
     left: -10px;
