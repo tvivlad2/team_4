@@ -1,3 +1,4 @@
+
 .content-container {
     display: flex;
     width: 100%;
@@ -111,5 +112,5 @@
     .content-backimg2{
         display:hidden;
     }
-    
+
 }
