@@ -1,0 +1,209 @@
+
+.bannerimage {
+    width: 100%;
+    position: relative;
+}
+.bannerblock {
+    position: absolute;
+    width: 521px;
+    background-color: rgba(255, 255, 255, 0.881);
+    top: 35%;
+    border-radius: 25px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+    padding-top: 30px;
+    margin-left: 360px;
+}
+.services {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: 1px;
+    width: 120px;
+    height: 24px;
+    text-transform: uppercase;
+    background: rgba(255, 204, 74, 1);
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 50px;
+}
+.getcontrol {
+    font-family: 'Cabin';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    line-height: 115.99999999999999%;
+    width: 401px;
+    height: 104px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+.bigblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1418px;
+    gap: 140px;
+}
+.highblock {
+    height: 733px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 81px;
+}
+.firstblock {
+    display: flex;
+    height: 181px;
+    width: 1200px;
+    gap: 100px;
+}
+.icon {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    gap: 22px;
+}
+.descriptionbox {
+    width: 800px;
+    height: 48px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: rgba(89, 85, 102, 1);
+}
+.firstblock .getcontrol {
+    width: 299px;
+    height: 52px;
+    margin: 0;
+}
+.icon .getcontrol {
+    font-size: 35px;
+    margin: 0;
+    text-align: left;
+    width: 344px;
+    white-space: nowrap;
+}
+.secondblock {
+    display: flex;
+    height: 338px;
+    width: 1210px;
+    gap: 100px;
+
+}
+.secondblock .getcontrol {
+    width: 299px;
+    height: 52px;
+    margin: 0;
+    text-align: left;
+}
+.pexels {
+    display: flex;
+    width: 820px;
+    flex-direction: column;
+    gap: 22px;
+}
+.pexels .descriptionbox {
+    height: 72px;
+}
+.pexels .getcontrol {
+    font-size: 35px;
+    height: 41px;
+    margin: 0;
+    text-align: left;
+    width: 344px;
+    white-space: nowrap;
+}
+
+.thirdblock {
+    display: flex;
+    height: 52px;
+    width: 973px;
+    gap: 311px;
+    align-items: center;
+    justify-content: center;
+}
+.thirdblock .getcontrol {
+    width: 88px;
+    text-align: left;
+}
+.font .descriptionbox {
+    margin-bottom: 30px;
+}
+.minih3 {
+    font-family: 'Cabin';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    line-height: 115.99999999999999%;
+}
+.minih3 span {
+    font-family: 'Cabin';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 115.99999999999999%;
+}
+.thirdblock .minih3 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.bottomblock {
+    background-color: black;
+    display: flex;
+    width: 1200px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 252px;
+    gap: 21px;
+}
+.bottomblock .minih3 {
+    color: white;
+    width: 387px;
+}
+.bottomblock .descriptionbox {
+    padding-top: 12px;
+    color: white;
+    width: 387px;
+}
+.form {
+    margin-top: 8px;
+    width: 311px;
+    height: 68px;
+    text-align: left;
+    border: 1px solid rgba(193, 193, 193, 1);
+    border-radius: 54px;
+    font-size: 16px;
+    margin-left: 141px;
+}
+input::placeholder {
+    padding-left: 30px;
+} 
+.bottommini {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.black {
+    background: rgba(255, 204, 74, 1);
+    border-radius: 42px;
+    color: black;
+    width: 167px;
+    height: 61px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+}
