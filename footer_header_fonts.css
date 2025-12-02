@@ -1,6 +1,8 @@
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 
 .logo,
@@ -374,7 +376,7 @@
 
 .footer-container:before {
     content: '';
-    width:100%;
+    width: 100%;
     position: absolute;
     top: -10px;
     left: -10px;
@@ -448,8 +450,8 @@
 }
 
 .footer-yellow-brick {
-    width: 31.952438354492188;
-    height: 3.10009765625;
+    width: 31.952438354492188px;
+    height: 3.10009765625px;
     opacity: 1;
     margin-bottom: 5%;
     margin-top: 5%;
