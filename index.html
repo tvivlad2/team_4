@@ -42,7 +42,11 @@
                 <img src="images/Logo.png" alt="AskExperts logo" class="hc-logo-icon">
                 <span class="hc-logo-text">AskExperts</span>
             </a>
-
+        <div class="hc-burger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
             <ul class="hc-menu">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Pages</a></li>
@@ -59,7 +63,12 @@
                 <span class="hc-call-number">+ (888) 452 1505</span>
             </a>
         </nav>
-
+        <script>
+            function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('is-open');
+            }
+        </script>
     </div>
 
     <div class="mainbody">
@@ -418,5 +427,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </body>
+
 
 </html>
