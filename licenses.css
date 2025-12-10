@@ -1,8 +1,8 @@
-
 .bannerimage {
     width: 100%;
     position: relative;
 }
+
 .bannerblock {
     position: absolute;
     width: 521px;
@@ -17,6 +17,7 @@
     padding-top: 30px;
     margin-left: 360px;
 }
+
 .services {
     font-family: 'Lato';
     font-weight: 400;
@@ -32,6 +33,7 @@
     text-align: center;
     margin-left: 50px;
 }
+
 .getcontrol {
     font-family: 'Cabin';
     font-weight: 700;
@@ -44,6 +46,7 @@
     margin-top: 8px;
     margin-left: 25px;
 }
+
 .bigblock {
     display: flex;
     flex-direction: column;
@@ -52,6 +55,7 @@
     height: 1418px;
     gap: 140px;
 }
+
 .highblock {
     height: 733px;
     width: 1200px;
@@ -61,18 +65,21 @@
     align-items: center;
     gap: 81px;
 }
+
 .firstblock {
     display: flex;
     height: 181px;
     width: 1200px;
     gap: 100px;
 }
+
 .icon {
     display: flex;
     width: 800px;
     flex-direction: column;
     gap: 22px;
 }
+
 .descriptionbox {
     width: 800px;
     height: 48px;
@@ -82,11 +89,13 @@
     line-height: 148%;
     color: rgba(89, 85, 102, 1);
 }
+
 .firstblock .getcontrol {
     width: 299px;
     height: 52px;
     margin: 0;
 }
+
 .icon .getcontrol {
     font-size: 35px;
     margin: 0;
@@ -94,6 +103,7 @@
     width: 344px;
     white-space: nowrap;
 }
+
 .secondblock {
     display: flex;
     height: 338px;
@@ -101,21 +111,25 @@
     gap: 100px;
 
 }
+
 .secondblock .getcontrol {
     width: 299px;
     height: 52px;
     margin: 0;
     text-align: left;
 }
+
 .pexels {
     display: flex;
     width: 820px;
     flex-direction: column;
     gap: 22px;
 }
+
 .pexels .descriptionbox {
     height: 72px;
 }
+
 .pexels .getcontrol {
     font-size: 35px;
     height: 41px;
@@ -133,13 +147,16 @@
     align-items: center;
     justify-content: center;
 }
+
 .thirdblock .getcontrol {
     width: 88px;
     text-align: left;
 }
+
 .font .descriptionbox {
     margin-bottom: 30px;
 }
+
 .minih3 {
     font-family: 'Cabin';
     font-weight: 700;
@@ -147,16 +164,19 @@
     font-size: 35px;
     line-height: 115.99999999999999%;
 }
+
 .minih3 span {
     font-family: 'Cabin';
     font-weight: 400;
     font-size: 30px;
     line-height: 115.99999999999999%;
 }
+
 .thirdblock .minih3 {
     font-size: 45px;
     margin-bottom: 50px;
 }
+
 .bottomblock {
     background-color: black;
     display: flex;
@@ -167,15 +187,18 @@
     height: 252px;
     gap: 21px;
 }
+
 .bottomblock .minih3 {
     color: white;
     width: 387px;
 }
+
 .bottomblock .descriptionbox {
     padding-top: 12px;
     color: white;
     width: 387px;
 }
+
 .form {
     margin-top: 8px;
     width: 311px;
@@ -186,9 +209,11 @@
     font-size: 16px;
     margin-left: 141px;
 }
+
 input::placeholder {
     padding-left: 30px;
-} 
+}
+
 .bottommini {
     padding-top: 20px;
     display: flex;
@@ -196,6 +221,7 @@ input::placeholder {
     align-items: center;
     justify-content: center;
 }
+
 .black {
     background: rgba(255, 204, 74, 1);
     border-radius: 42px;
@@ -206,4 +232,99 @@ input::placeholder {
     font-weight: 600;
     font-size: 18px;
     line-height: 160%;
+}
+
+@media (max-width: 768px) {
+    .bannerblock {
+        width: 500px;
+        top: 35%;
+        padding-top: 20px;
+        margin-left: 100px;
+        height: 139px;
+    }
+
+    .highblock {
+        width: 705px;
+        gap: 55px;
+    }
+
+    .firstblock {
+        width: 705px;
+        gap: 50px;
+        height: 300px;
+    }
+    .firstblock .getcontrol {
+        text-align: left;
+    }
+    .icon {
+        display: flex;
+        width: 400px;
+        flex-direction: column;
+        gap: 22px;
+    }
+    .icon .minih3 {
+        margin-top: 0;
+    }
+    .descriptionbox {
+        width: 400px;
+        height: 90px;
+    }
+
+    .secondblock {
+        width: 705px;
+        height: 450px;
+        gap: 55px;
+    }
+    .pexels .minih3 {
+        margin-top: 0;
+    }
+    .pexels .descriptionbox {
+        height: 300px;
+    }
+
+    .minih3 {
+        margin-top: 25px;
+    }
+
+    .thirdblock {
+        width: 705px;
+        gap: 223px;
+        height: 150px;
+    }
+
+    .font .descriptionbox {
+        padding-top: 20px;
+    }
+
+    .bottomblock {
+        width: 700px;
+        gap: 5px;
+    }
+
+
+    .bottomblock .minih3 {
+        color: white;
+        width: 200px;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .bottomblock .descriptionbox {
+        padding-top: 12px;
+        color: white;
+        width: 200px;
+    }
+    .form {
+    margin-top: 8px;
+    width: 311px;
+    height: 68px;
+    text-align: left;
+    border: 1px solid rgba(193, 193, 193, 1);
+    border-radius: 54px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+    .black {
+        width: 130px;
+    }
 }
