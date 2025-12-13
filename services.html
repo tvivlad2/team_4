@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - AskExperts</title>
+    <link rel="stylesheet" href="style.css"> <!-- Твой CSS файл -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ХЕДЕР (Одинаковый для всех) -->
+    <nav class="hc-navbar">
+        <!-- Бургер -->
+        <div class="hc-burger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+        <!-- Лого -->
+        <a href="index.html" class="hc-logo">
+            <span class="hc-logo-text">AskExperts</span>
+        </a>
+        <!-- Меню -->
+        <ul class="hc-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="services.html">Services</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="changelog.html">Changelog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- Телефон -->
+        <a href="#" class="hc-call-button">
+            <span class="hc-call-number">+ (888) 452 1505</span>
+        </a>
+    </nav>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ СТРАНИЦЫ SERVICES -->
+    <main>
+        <!-- Шапка -->
+        <section class="page-hero" style="background-image: url('images/services-bg.jpg');"> <!-- Замени картинку -->
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <span class="hero-tag">SERVICES</span>
+                <h1>Creative Services For Boost<br>Your Business Growth</h1>
+            </div>
+        </section>
+
+        <!-- Сетка иконок -->
+        <section class="page-content">
+            <div class="container">
+                <div class="text-center">
+                    <span class="green-tag">OUR SERVICES</span>
+                    <h2>Get Control Over Your Business</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="srv-card"><h3>Audit & Evaluation</h3><p>Lorem ipsum dolor sit amet.</p></div>
+                    <div class="srv-card dark"><h3>Financial Projections</h3><p>Lorem ipsum dolor sit amet.</p></div>
+                    <div class="srv-card"><h3>Funds & Investments</h3><p>Lorem ipsum dolor sit amet.</p></div>
+                    <div class="srv-card"><h3>Finance & Restructuring</h3><p>Lorem ipsum dolor sit amet.</p></div>
+                    <div class="srv-card"><h3>Taxes & Efficiency</h3><p>Lorem ipsum dolor sit amet.</p></div>
+                    <div class="srv-card"><h3>Investment Banking</h3><p>Lorem ipsum dolor sit amet.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Цены -->
+        <section class="pricing-section" style="background-color: #f9f9f9; padding: 80px 0;">
+            <div class="container">
+                <div class="text-center">
+                    <span class="green-tag">OUR PRICING PLAN</span>
+                    <h2>Our Pricing Plan</h2>
+                </div>
+                <div class="pricing-grid">
+                    <div class="price-card">
+                        <h3>Basic Plan</h3>
+                        <div class="price">$35</div>
+                        <a href="#" class="hc-call-button" style="justify-content: center;">View Plan</a>
+                    </div>
+                    <div class="price-card dark">
+                        <h3>Standard Plan</h3>
+                        <div class="price">$56</div>
+                        <a href="#" class="hc-call-button" style="justify-content: center; background: #FFCC4A;">View Plan</a>
+                    </div>
+                    <div class="price-card">
+                        <h3>Premium Plan</h3>
+                        <div class="price">$75</div>
+                        <a href="#" class="hc-call-button" style="justify-content: center;">View Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ФУТЕР (Твой код) -->
+    <div class="footer-component">
+        <div class="footer-right-containment">
+            <div class="social_media">Company</div>
+            <img src="images/i_am_rectangle.png" class="footer-yellow-brick" alt="">
+            <div class="copyright">
+                <ul><li>About</li><li>News</li><li>Contacts</li></ul>
+            </div>
+        </div>
+        <div class="footer-right-containment">
+            <div class="social_media">Address</div>
+            <img src="images/i_am_rectangle.png" class="footer-yellow-brick" alt="">
+            <div class="copyright">1700 W Blancke St, kiyev port south USA, America</div>
+            <div class="buttons"><span class="btn-white">Book an appointment</span></div>
+        </div>
+    </div>
+    <div class="bigfoot2">
+        <span class="copyright">©2022 Consultalk. All rights reserved | Terms of Service | Privacy Policy</span>
+    </div>
+
+    <!-- JS СКРИПТ (ОБЯЗАТЕЛЬНО) -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('is-open');
+        }
+    </script>
+</body>
+</html>
