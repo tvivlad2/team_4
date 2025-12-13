@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog - AskExperts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ХЕДЕР -->
+    <nav class="hc-navbar">
+        <div class="hc-burger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+        <a href="index.html" class="hc-logo"><span class="hc-logo-text">AskExperts</span></a>
+        <ul class="hc-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li class="active"><a href="changelog.html">Changelog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="hc-call-button"><span class="hc-call-number">+ (888) 452 1505</span></a>
+    </nav>
+
+    <!-- КОНТЕНТ CHANGELOG -->
+    <main>
+        <section class="page-hero" style="background-image: url('images/hero-bg.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <span class="hero-tag">UPDATES</span>
+                <h1>Changelog</h1>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="changelog-card">
+                    <div style="text-align: center;">
+                        <h2 style="font-size: 32px; margin-bottom: 10px;">Version 01</h2>
+                        <span class="cl-tag">Initial AskExperts Webflow Template Release</span>
+                    </div>
+                    <div class="cl-corner"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ФУТЕР -->
+    <div class="footer-component">
+        <div class="footer-right-containment">
+            <div class="social_media">Company</div>
+            <img src="images/i_am_rectangle.png" class="footer-yellow-brick" alt="">
+            <div class="copyright"><ul><li>About</li><li>News</li><li>Contacts</li></ul></div>
+        </div>
+        <div class="footer-right-containment">
+            <div class="social_media">Address</div>
+            <img src="images/i_am_rectangle.png" class="footer-yellow-brick" alt="">
+            <div class="copyright">1700 W Blancke St, kiyev port south USA, America</div>
+            <div class="buttons"><span class="btn-white">Book an appointment</span></div>
+        </div>
+    </div>
+    <div class="bigfoot2">
+        <span class="copyright">©2022 Consultalk. All rights reserved | Terms of Service | Privacy Policy</span>
+    </div>
+
+    <!-- JS СКРИПТ -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('is-open');
+        }
+    </script>
+</body>
+</html>
