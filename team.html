@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - AskExperts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ХЕДЕР -->
+    <nav class="hc-navbar">
+        <div class="hc-burger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+        <a href="index.html" class="hc-logo"><span class="hc-logo-text">AskExperts</span></a>
+        <ul class="hc-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="active"><a href="team.html">Team</a></li>
+            <li><a href="changelog.html">Changelog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="hc-call-button"><span class="hc-call-number">+ (888) 452 1505</span></a>
+    </nav>
+
+    <!-- КОНТЕНТ TEAM -->
+    <main>
+        <section class="page-hero" style="background-image: url('images/team-bg.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <span class="hero-tag">TEAM</span>
+                <h1>The Consultors</h1>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <div class="text-center"><h2>Meet Our Great Team</h2></div>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="tm-photo" style="background-image: url('images/photo1.jpg');"><span class="tm-tag">CEO</span></div>
+                        <h3>Sarah Jasmine</h3>
+                        <p>Leverage agile frameworks.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="tm-photo" style="background-image: url('images/photo2.jpg');"><span class="tm-tag">Manager</span></div>
+                        <h3>John Carter</h3>
+                        <p>Leverage agile frameworks.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="tm-photo" style="background-image: url('images/photo3.jpg');"><span class="tm-tag">Consultant</span></div>
+                        <h3>Daisy Stella</h3>
+                        <p>Leverage agile frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Блок -->
+        <section style="background: #fff; padding-bottom: 80px;">
+            <div class="container">
+                <div class="cta-box">
+                    <div class="cta-text">
+                        <h3>Ready To Talk?</h3>
+                        <p>Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.</p>
+                    </div>
+                    <div class="cta-btn">
+                        <a href="#" class="hc-call-button" style="background: #FFCC4A; justify-content: center;">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ФУТЕР -->
+    <div class="footer-component">
+        <div class="footer-right-containment">
+            <div class="social_media">Company</div>
+            <img src="images/i_am_rectangle.png" class="footer-yellow-brick" alt="">
+            <div class="copyright"><ul><li>About</li><li>News</li><li>Contacts</li></ul></div>
+        </div>
+        <div class="footer-right-containment">
+            <div class="social_media">Address</div>
+            <img src="images/i_am_rectangle.png" class="footer-yellow-brick" alt="">
+            <div class="copyright">1700 W Blancke St, kiyev port south USA, America</div>
+            <div class="buttons"><span class="btn-white">Book an appointment</span></div>
+        </div>
+    </div>
+    <div class="bigfoot2">
+        <span class="copyright">©2022 Consultalk. All rights reserved | Terms of Service | Privacy Policy</span>
+    </div>
+
+    <!-- JS СКРИПТ -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('is-open');
+        }
+    </script>
+</body>
+</html>
