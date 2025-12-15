@@ -68,12 +68,14 @@
 .services-process__title {
     display:flex;
     flex-direction: row;
-    gap:30px;
+    gap:45px;
     font-family: Cabin;
     font-weight: 700;
     font-size: 35px;
     line-height: 115.99999999999999%;
     padding-bottom: 0px;
+
+    align-items: center;
 }
 .services-process__title_2{
     align-self: flex-end;
@@ -86,7 +88,7 @@
     flex-direction: column;
     gap: 0px;
     max-width: 633px;
-    margin-top: 170px;
+    margin-top: 105px;
     transform: translateX(-55px);
 }
 
@@ -1267,6 +1269,10 @@ input::placeholder {
     margin-bottom:200px;
 }
 
+.hc-icon{
+    width: 29.239999771118164;
+height: 29.25;
+}
 
 @media (max-width: 768px) {
     .bannerblock {
