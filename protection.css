@@ -1,0 +1,148 @@
+    .bannerimage {
+        width: 100%;
+        position: relative;
+    }
+
+    .bannerblock {
+        position: absolute;
+        width: 521px;
+        background-color: rgba(255, 255, 255, 0.881);
+        top: 35%;
+        border-radius: 25px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 21px;
+        padding-top: 30px;
+        margin-left: 360px;
+    }
+
+    .protection {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 148%;
+        letter-spacing: 1px;
+        width: 120px;
+        height: 24px;
+        text-transform: uppercase;
+        background: rgba(255, 204, 74, 1);
+        color: black;
+        border-radius: 20px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .password_protection {
+        font-family: 'Cabin';
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 45px;
+        line-height: 115.99999999999999%;
+        width: 401px;
+        height: 104px;
+        text-align: center;
+        margin-top: 8px;
+        margin-left: 25px;
+    }
+
+    .bigblock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 650px;
+        gap: 140px;
+    }
+
+    .minih3 {
+        font-family: 'Cabin';
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 35px;
+        line-height: 115.99999999999999%;
+    }
+
+    .minih3 span {
+        font-family: 'Cabin';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 115.99999999999999%;
+    }
+
+    .thirdblock .minih3 {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .bottomblock {
+        background-image: url(images/protectionback2.png);
+        display: flex;
+        flex-flow: column;
+        width: 1200px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        height: 396px;
+        gap: 21px;
+    }
+
+    .bottomblock .minih3 {
+        color: white;
+        width: 387px;
+        text-align: center;
+    }
+
+    .bottomblock .descriptionbox {
+        padding-top: 12px;
+        color: white;
+        width: 387px;
+    }
+
+    .form {
+        margin-top: 8px;
+        width: 311px;
+        height: 68px;
+        text-align: left;
+        border: 1px solid rgba(193, 193, 193, 1);
+        border-radius: 54px;
+        font-size: 16px;
+    }
+
+    input::placeholder {
+        padding-left: 30px;
+    }
+
+    .bottommini {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .black {
+        background: rgba(255, 204, 74, 1);
+        border-radius: 42px;
+        color: black;
+        width: 167px;
+        height: 61px;
+        font-family: Lato;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+    }
+
+    @media (max-width:768px) {
+        .bannerblock {
+            justify-items: left;
+            margin-left: 100px;
+            height: 150px;
+            top: 30%;
+        }
+
+        .bigblock {
+            height: 400px;
+        }
+    }
