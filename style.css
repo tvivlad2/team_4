@@ -87,6 +87,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.aboutteam.reverse {
+    flex-direction: row-reverse;
+}
+
 .aboutteamblock {
     margin-top: 126px;
 }
@@ -191,6 +196,7 @@ button {
     margin-top: 38px;
     display: flex;
     height: 668px;
+    width: 1300px;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
