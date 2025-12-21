@@ -616,3 +616,198 @@ input::placeholder {
 .form2::placeholder {
     padding-bottom: 50px;
 }
+@media (max-width: 768px) {
+    .text {
+        left: 197px;
+        top: 65%;
+        height: 200px;
+        width: 420px;
+    }
+    .heading {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+    .description {
+        display: none;
+}
+    .buttonss {
+    gap: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+    .aboutteamblock {
+        margin-top: 0px;
+    }
+    .aboutteamimages {
+        display: none;
+    }
+    .team {
+        width: 100%;
+    }
+    .aboutteamh3 {
+        width: 600px;
+        text-align: center;
+    }
+    .boldtext  {
+        width: 600px;
+        text-align: center;
+    }
+    .normtext {
+        width: 600px;
+        text-align: center;
+    }
+    .counter {
+        margin-left: 110px;
+    }
+    .servicesblock {
+        gap: 35px;
+        height: 2600px;
+    }
+    .highblock {
+        width: 600px;
+        height: 200px;
+    }
+    .services {
+    width: 100%;
+    height: 24px;
+}
+    .highblock .getcontrol {
+        width: 600px;
+        height: 160px;
+    }
+    .footblock {
+        margin-top: 0px;
+        width: 600px;
+        height: 2200px;
+    }
+    .processblock {
+        flex-direction: column;
+        height: 1800px;
+    }
+    .process .getcontrol {
+        text-align: center;
+    }
+    .process .descriptionbox {
+        text-align: center;
+    }
+    .processminiblock {
+        width: 507px;
+        justify-content: center;
+    }
+    .processminiblock12 {
+        align-items: center;
+    }
+    .growingourclientsblock .getcontrol {
+        text-align: center;
+        width: 573px;
+    }
+    .growingourclientsblock .services {
+        width: 100%;
+    }
+    .growingourclientsblock .descriptionbox {
+        text-align: center;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title {
+        text-align: center;
+    }
+    .galleryblock {
+        height: 300px;
+    }
+    .galleryhighblock {
+        width: 700px;
+        gap: 20px;
+    }
+    .galleryhighblock1 {
+        width: 460px;
+    }
+    .galleryblock .galleryhighblock .galleryhighblock2 .white {
+        padding-left: 20px;
+    }
+    .galleryhighblock1 .services {
+        width: 100%;
+    }
+    .galleryhighblock1 .getcontrol {
+        width: 500px;
+        font-size: 30px;
+        height: 80px;
+    }
+    .galleryhighblock2 {
+        width: 150px;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    .galleryimg {
+        display: none;
+    }
+    .booknowblock {
+        width: 700px;
+        height: 400px;
+    }
+    .booknowblock img {
+        display: none;
+    }
+    .booknowminiblock .getcontrol {
+        font-size: 35px;
+        text-align: center;
+        height: 80px;
+    }
+    .booknowminiblock .descriptionbox {
+        text-align: center;
+    }
+    .yellowbutton {
+        margin-left: 112.5px;
+    }
+    .galleryhighblock2 .white {
+        width: 150px;
+    }
+    .blog {
+        margin-top: 70px;
+        height: 800px;
+    }
+    .blogfooter .firstblock {
+        width: 300px;
+    }
+    .firstblock .getcontrol {
+        width: 300px;
+        height: 100px;
+    }
+    .firstblock .descriptionbox {
+        width: 300px;
+        height: 115px;
+    }
+    .contactus {
+        width: 750px;
+        flex-direction: column;
+        height: 1300px;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .contactus .process {
+        gap: 20px;
+    }
+    .roof .descriptionbox {
+        width: 600px;
+    }
+    .contactus .processminiblock {
+        height: 70px;
+    }
+    .forms {
+        flex-direction: column;
+        height: 1000px;
+    }
+    .forms .firstform {
+        width: 100%;
+    }
+    .forms .form {
+        width: 100%;
+    }
+    .forms .black {
+        width: 100%;
+    }
+}
