@@ -1546,10 +1546,10 @@ flex-direction: row;
     }
     .resume-content{
         flex-wrap: wrap;
+        width:auto;
+        height:auto;
     }
-    .resume-content-content{
-        flex-wrap: wrap;
-    }
+
     .testimonial{
 
         height:auto;
@@ -1557,6 +1557,9 @@ flex-direction: row;
     }
     .experience{
         overflow: hidden;
+    }
+    .experience-content{
+        flex-wrap: wrap;
     }
     .work{
         overflow: hidden;
@@ -1567,7 +1570,12 @@ flex-direction: row;
     }
     .stats-container{
         overflow: hidden;
+        flex-wrap: wrap;
         
+    }
+    .resume-content-content{
+        flex-direction: column;
+        height:auto;
     }
     .testimonial{
         width:100%;
@@ -1578,5 +1586,25 @@ flex-direction: row;
     .testimonial-content{
         flex-wrap: wrap;
         width:768px;
+        height:auto;
+    }
+    .resume-container{
+        flex-wrap: wrap;
+        height:auto;
+        margin-top:40px;
+    }
+    .aboutteam{
+        height:auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card{
+        height:auto;
+    }
+    .banner__overlay-text{
+        margin:auto;
+    }
+    .cards{
+        margin-top:30px;
     }
 }
