@@ -1556,10 +1556,19 @@ flex-direction: row;
         overflow: hidden;
     }
     .experience{
+        height:auto;
         overflow: hidden;
     }
     .experience-content{
         flex-wrap: wrap;
+        height:auto;
+    }
+    .experience-content-right{
+        flex-direction: column;
+        height:auto;
+    }
+    .experience-content-left{
+        margin:auto;
     }
     .work{
         overflow: hidden;
@@ -1603,6 +1612,7 @@ flex-direction: row;
     }
     .banner__overlay-text{
         margin:auto;
+        width:50%;
     }
     .cards{
         margin-top:30px;
