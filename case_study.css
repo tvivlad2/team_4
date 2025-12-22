@@ -1,0 +1,391 @@
+.ak2{
+    width: 1900px;
+    height: 1200px;
+    border: 6px;
+    align-content: center;
+    text-align: center;
+}
+.bannerimage {
+    width: 100%;
+    position: relative;
+}
+
+.bannerblock {
+    position: absolute;
+    width: 521px;
+    background-color: rgba(255, 255, 255, 0.881);
+    top: 35%;
+    border-radius: 25px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 21px;
+    padding-top: 30px;
+    margin-left: 360px;
+}
+
+.services {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    letter-spacing: 1px;
+    width: 120px;
+    height: 24px;
+    text-transform: uppercase;
+    background: rgba(255, 204, 74, 1);
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.getcontrol {
+    font-family: 'Cabin';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 45px;
+    line-height: 115.99999999999999%;
+    width: 467px;
+    height: 104px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+
+.bigblock {
+    height: 1890px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.highblock {
+    display: flex;
+    gap: 82px;
+    justify-content: center;
+}
+
+.blockletstalk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.roof {
+    width: 481px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.roof .services {
+    background: rgba(78, 175, 78, 1);
+    color: white;
+    margin: 0;
+}
+
+.roof .getcontrol {
+    height: 52px;
+    margin: 0;
+    text-align: left;
+}
+
+.descriptionbox {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: rgba(89, 85, 102, 1);
+}
+
+.foot {
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.processminiblock {
+    display: flex;
+    gap: 20px;
+}
+
+.processminiblock12 {
+    display: flex;
+    flex-direction: column;
+}
+
+.processminiblock .descriptionbox {
+    font-family: 'Cabin';
+}
+
+.mininame {
+    font-family: 'Cabin';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115.99999999999999%;
+}
+
+.contactimage {
+    width: 634px;
+    height: 504px;
+
+}
+
+.middleblock {
+    background-color: black;
+    display: flex;
+    width: 1200px;
+    border-radius: 20px;
+    align-items: center;
+justify-content: space-evenly;
+    height: 252px;
+    gap: 21px;
+}
+
+.middleblock .minih3 {
+    font-family: 'Cabin';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    color: white;
+    width: 387px;
+}
+
+.middleblock .descriptionbox {
+    padding-top: 12px;
+    color: white;
+    width: 387px;
+}
+
+.form {
+    margin-top: 8px;
+    width: 311px;
+    height: 68px;
+    text-align: left;
+    border: 1px solid rgba(193, 193, 193, 1);
+    border-radius: 54px;
+    font-size: 16px;
+    margin-left: 141px;
+}
+
+input::placeholder {
+    padding-left: 30px;
+}
+
+.bottommini {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.black {
+    background: rgba(255, 204, 74, 1);
+    border-radius: 42px;
+    color: black;
+    width: 167px;
+    height: 61px;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.contactus {
+    height: 534px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus .process {
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    height: 534px;
+}
+
+.contactus .services {
+    background: rgba(255, 204, 74, 1);
+    color: black;
+}
+
+.contactus .getcontrol {
+    height: 52px;
+}
+
+.contactus .descriptionbox {
+    width: 370px;
+}
+
+.contactus .mininame {
+    width: 262px;
+}
+
+.contactus .processminiblock {
+    width: 330px;
+    height: 80px;
+    display: flex;
+    gap: 16px;
+    width: 400px;
+    align-items: center;
+    height: 141px;
+}
+
+.forms {
+    display: flex;
+    width: 688px;
+    flex-wrap: wrap;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    height: 534px;
+}
+
+.form {
+    margin: 0;
+    margin-top: 8px;
+    width: 318px;
+    height: 68px;
+    text-align: left;
+    border: 1px solid rgba(193, 193, 193, 1);
+    border-radius: 54px;
+    font-size: 16px;
+    padding: 0;
+}
+
+input::placeholder {
+    padding-left: 30px;
+}
+
+.form2 {
+    margin-top: 8px;
+    width: 666px;
+    height: 157px;
+    border: 1px solid rgba(193, 193, 193, 1);
+    border-radius: 22px;
+    font-size: 16px;
+}
+
+.form2::placeholder {
+    padding-bottom: 50px;
+}
+
+.formsname {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    width: 133px;
+}
+
+.firstform {
+    height: 100px;
+}
+
+.forms .black {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .bannerblock {
+        width: 500px;
+        top: 60%;
+        padding-top: 20px;
+        margin-left: 100px;
+        height: 139px;
+        gap: 10px;
+    }
+
+    .bannerblock .services {
+        margin-left: 30px;
+    }
+
+    .bannerblock .getcontrol {
+        margin-left: 7px;
+    }
+    .bigblock {
+        gap: 80px;
+        height: 2200px;
+    }
+
+    .highblock {
+        width: 700px;
+        gap: 0px;
+    }
+    .blockletstalk {
+        width: 600px;
+    }
+    .contactimage {
+        display: none;
+    }
+    .roof {
+        width: 600px;
+    }
+    .roof .getcontrol {
+        width: 600px;
+        font-size: 45px;
+    }
+    .roof .descriptionbox {
+        width: 340px;
+    }
+    .blockimage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .middleblock {
+        width: 700px;
+        gap: 15px;
+
+    }
+    .middleblock .minih3 {
+        color: white;
+        width: 200px;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .middleblock .descriptionbox {
+        display: none;
+    }
+    .middleblock .black {
+        width: 100px;
+        font-size: 14px;
+    }
+    .contactus {
+        width: 700px;
+        flex-direction: column;
+        height: 1300px;
+        gap: 30px;
+    }
+    .contactus .process {
+        gap: 20px;
+    }
+    .roof .descriptionbox {
+        width: 600px;
+    }
+    .contactus .processminiblock {
+        height: 70px;
+    }
+    .forms {
+        flex-direction: column;
+        height: 1000px;
+    }
+    .forms .firstform {
+        width: 100%;
+    }
+    .forms .form {
+        width: 100%;
+    }
+    .forms .black {
+        width: 100%;
+    }
+}
