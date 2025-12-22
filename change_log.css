@@ -642,6 +642,12 @@ only screen and (max-device-width: 800px) {
     }
 }
 
+@media only screen and (max-width: 768px),
+only screen and (max-device-width: 768px) {
+    .team-hero .hero__title {
+        min-width: 66%;
+    }
+}
 @media only screen and (max-width: 600px),
 only screen and (max-device-width: 600px) {
     .team-hero img {
