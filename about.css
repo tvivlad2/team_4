@@ -1,0 +1,151 @@
+.blackcontainir{
+    width: 1900px;
+    height: 200px;
+    border: 1px ;
+    align-content: center;
+    text-align: center;
+}
+.about4{
+    width: 1918px;
+    height: 703px;
+    border: 5px solid;
+    align-content: center;
+    text-align: center;
+}
+.about5{
+    width: 1900px;
+    height: 550px;
+    border: 5px ;
+    align-content: center;
+    text-align: center;
+}
+.about6{
+    width: 1920px;
+    height: 1118px;
+    border: 1px ;
+    align-content: center;
+    text-align: center;
+}
+.headerminiblock{
+    width: 1900px;
+    height: 500px;
+    border: 1px;
+    align-content: center;
+    text-align: center;
+}
+.about7{
+    width: 1920px;
+    height: 700px;
+    border: 1px ;
+    align-content: center;
+    text-align: center;
+}
+/* Основные стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-component {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.hc-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hc-topbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.hc-icon {
+    margin-right: 5px;
+}
+
+.hc-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.hc-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.hc-menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hc-call-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.banner {
+    width: 100%;
+}
+
+.bannerimage {
+    width: 100%;
+    height: auto;
+}
+
+
+.about-section {
+    padding: 20px;
+}
+
+.about-section img {
+    width: 100%;
+    height: auto;
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    .hc-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hc-menu {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        display: none; 
+    }
+
+    .hc-menu.active {
+        display: flex; 
+    }
+
+    .hc-call-button {
+        margin-top: 10px;
+    }
+
+    .hc-topbar {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .hc-topbar-item span,
+    .hc-call-number {
+        font-size: 14px; 
+    }
+
+    .hc-icon {
+        width: 20px; 
+        height: auto; 
+    }
+}
