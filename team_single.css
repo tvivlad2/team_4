@@ -740,7 +740,7 @@
 }
 
 .aboutteam {
-    width: 1200px;
+    width: 100%;
     height: 770px;
     display: flex;
     gap: 60px;
