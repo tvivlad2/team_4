@@ -488,6 +488,10 @@
         height: auto !important;
         padding: 40px 15px !important; /* Даем отступы по бокам */
         box-sizing: border-box; /* Учитываем padding в общей ширине */
+        margin-top: 50px;
+    }
+    .servicesblock__title {
+        height: 105px;
     }
     
     .servicesblock__title-ponizhe {
