@@ -404,6 +404,11 @@
     z-index: 1;
 }
 
+.bottomblock--container {
+    display: flex;
+    justify-content: center;
+}
+
 .bottomblock {
     background-color: black;
     display: flex;
@@ -415,7 +420,8 @@
     gap: 21px;
     overflow: hidden;
     position: relative;
-
+    
+    
     z-index: 3;
 }
 
@@ -523,6 +529,7 @@
 }
 
 .title-button-wrap {
+    display: flex;
     gap: 20px;
 }
 
