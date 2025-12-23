@@ -488,6 +488,10 @@
         height: auto !important;
         padding: 40px 15px !important; /* Даем отступы по бокам */
         box-sizing: border-box; /* Учитываем padding в общей ширине */
+        margin-top: 50px;
+    }
+    .servicesblock__title {
+        height: 105px;
     }
     
     .servicesblock__title-ponizhe {
@@ -594,13 +598,19 @@
         gap: 50px;
     }
 
-    .contact-us__header,
     .contact-us__info {
-        width: 100%;
+        width: 700px;
         align-items: center;
         text-align: center;
     }
-
+        .contact-us__header {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+        }
+        .contact-us__tag{
+            width:85%;
+        }
     .contact-us__description {
         max-width: 100%;
     }
