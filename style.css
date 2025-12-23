@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .banner {
     width: 100%;
     position: relative;
@@ -13,9 +14,11 @@
     position: absolute;
     border-radius: 30px;
 }
+
 .client {
     width: 100%;
 }
+
 .heading {
     font-family: 'Cabin';
     font-weight: 700;
@@ -37,12 +40,14 @@
 
 
 }
+
 .buttonss {
     display: flex;
     gap: 10px;
     padding-top: 20px;
     margin-left: 58px;
 }
+
 .black {
     background-color: rgb(24, 24, 24, 1);
     border-radius: 42px;
@@ -56,7 +61,7 @@
 }
 
 .white {
-    width: 202px; 
+    width: 202px;
     height: 60px;
     border-radius: 42px;
     border-color: rgba(128, 128, 128, 0.255);
@@ -106,6 +111,7 @@
     height: 107px;
     margin-top: 22px;
 }
+
 .team {
     font-family: 'Lato';
     font-weight: 400;
@@ -124,6 +130,7 @@
 button {
     cursor: pointer;
 }
+
 .boldtext {
     width: 373px;
     height: 54px;
@@ -133,6 +140,7 @@ button {
     font-size: 18px;
     line-height: 148%;
 }
+
 .normtext {
     width: 420px;
     height: 48px;
@@ -142,6 +150,7 @@ button {
     line-height: 148%;
     color: rgba(89, 85, 102, 1);
 }
+
 .counter {
     width: 380px;
     height: 130px;
@@ -161,12 +170,14 @@ button {
     align-items: center;
     width: 100%;
 }
+
 .highblock {
     display: flex;
     height: 136px;
     align-items: center;
     flex-direction: column;
 }
+
 .services {
     font-family: 'Lato';
     font-weight: 400;
@@ -181,6 +192,7 @@ button {
     border-radius: 20px;
     text-align: center;
 }
+
 .getcontrol {
     font-family: 'Cabin';
     font-weight: 700;
@@ -192,6 +204,7 @@ button {
     text-align: center;
     margin-top: 8px;
 }
+
 .footblock {
     margin-top: 38px;
     display: flex;
@@ -201,24 +214,28 @@ button {
     gap: 20px;
     justify-content: center;
 }
+
 .box {
     height: 324px;
     width: 387px;
     border-radius: 20px;
     background-color: rgba(235, 235, 235, 1);
 }
+
 .box1content {
     margin-left: 47px;
     margin-top: 49px;
 }
+
 .box2 {
     height: 324px;
     width: 387px;
     border-radius: 20px;
     background-color: rgba(24, 24, 24, 1);
     color: white;
-;
+    ;
 }
+
 .box2 .title {
     margin-top: 25px;
     width: 220px;
@@ -228,6 +245,7 @@ button {
     font-size: 25px;
     line-height: 115.99999999999999%;
 }
+
 .box2 .descriptionbox {
     margin-top: 10px;
     width: 293px;
@@ -238,6 +256,7 @@ button {
     line-height: 148%;
     color: rgb(255, 255, 255);
 }
+
 .title {
     margin-top: 25px;
     width: 252px;
@@ -247,6 +266,7 @@ button {
     font-size: 25px;
     line-height: 115.99999999999999%;
 }
+
 .descriptionbox {
     margin-top: 10px;
     width: 293px;
@@ -266,19 +286,23 @@ button {
     justify-content: center;
     width: 100%;
 }
+
 .process {
     height: 723px;
     width: 507px;
 }
+
 .process .getcontrol {
     width: 507px;
     height: 104px;
     text-align: left;
 }
+
 .process .descriptionbox {
     width: 488px;
     height: 72px;
 }
+
 .processminiblock {
     display: flex;
     gap: 16px;
@@ -286,11 +310,13 @@ button {
     align-items: center;
     height: 141px;
 }
+
 .processminiblock12 {
     display: flex;
     flex-direction: column;
 
 }
+
 .processminiblock .ellips {
     display: flex;
     justify-content: center;
@@ -301,6 +327,7 @@ button {
     line-height: 115.99999999999999%;
     background: rgba(255, 204, 74, 1);
 }
+
 .mininame {
     width: 149px;
     height: 23px;
@@ -309,10 +336,12 @@ button {
     font-size: 20px;
     line-height: 115.99999999999999%;
 }
+
 .processminiblock .descriptionbox {
     width: 331px;
     height: 52px;
 }
+
 .processminiblock .ellips2 {
     display: flex;
     justify-content: center;
@@ -349,19 +378,23 @@ button {
     width: 573px;
     height: 723px;
 }
+
 .growingourclientsblock .services {
     width: 319px;
     background: rgba(255, 204, 74, 1);
     color: black
 }
+
 .growingourclientsblock .getcontrol {
     text-align: left;
     width: 444px;
     height: 52px;
 }
+
 .growingourclientsblock .descriptionbox {
     width: 542px;
 }
+
 .square {
     width: 573px;
     display: flex;
@@ -370,18 +403,21 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 .square .box {
     width: 279px;
     height: 221px;
     text-align: left;
     background: rgba(250, 250, 250, 1);
     border: 1px solid;
-    border-color:rgba(234, 234, 234, 1);
+    border-color: rgba(234, 234, 234, 1);
     padding: 20px;
 }
+
 .square .descriptionbox {
     width: 233px;
 }
+
 .galleryblock {
     display: flex;
     flex-direction: column;
@@ -391,51 +427,61 @@ button {
     height: 1146px;
     background-color: black;
 }
+
 .galleryhighblock {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .galleryhighblock1 {
     width: 731px;
 }
+
 .galleryhighblock2 {
     width: 469px;
     padding-top: 55px;
     padding-left: 240px;
 }
+
 .galleryhighblock1 .getcontrol {
     width: 731px;
     color: white;
     text-align: left;
 }
+
 .galleryhighblock2 .white {
     width: 168px;
-   background: rgba(255, 204, 74, 1);
+    background: rgba(255, 204, 74, 1);
     text-align: center;
     padding-left: 30px;
     font-size: 18px;
     line-height: 160%;
 }
+
 .maincounter {
     margin-top: 54px;
     display: flex;
     justify-content: center;
 }
+
 .counterblock {
     display: flex;
     width: 895px;
     justify-content: space-between;
 }
+
 .counterminiblock {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .counterminiblock .heading {
     margin: 0;
 }
+
 .cmb {
     width: 126px;
     height: 21px;
@@ -445,6 +491,7 @@ button {
     font-size: 18px;
     line-height: 115.99999999999999%;
 }
+
 .cmb1 {
     width: 138px;
     height: 21px;
@@ -454,6 +501,7 @@ button {
     font-size: 18px;
     line-height: 115.99999999999999%;
 }
+
 .clientfeedback {
     margin-top: 146px;
     display: flex;
@@ -461,20 +509,24 @@ button {
     align-items: center;
     gap: 143px;
 }
+
 .clientfeedback .services {
     width: 205px;
 }
+
 .footerblock {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 654px;
 }
+
 .booknow {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .booknowblock {
     border-radius: 30px;
     display: flex;
@@ -490,13 +542,15 @@ button {
     color: white;
     text-align: left;
 }
+
 .booknowminiblock .descriptionbox {
     color: white;
     width: 427px;
 }
+
 .yellowbutton {
     margin-top: 21px;
-    width: 202px; 
+    width: 202px;
     height: 60px;
     border-radius: 42px;
     background-color: rgba(255, 204, 74, 1);
@@ -509,6 +563,7 @@ button {
     justify-content: center;
     gap: 5px;
 }
+
 .blog {
     margin-top: 169px;
     background-color: rgba(245, 245, 245, 1);
@@ -519,17 +574,21 @@ button {
     align-items: center;
     gap: 45px;
 }
+
 .blog .services {
     width: 74px;
 }
+
 .blog .getcontrol {
     color: black;
 }
+
 .blogfooter {
     display: flex;
     gap: 36px;
     justify-content: center;
 }
+
 .firstblock {
     display: flex;
     flex-direction: column;
@@ -537,53 +596,65 @@ button {
     gap: 28px;
 
 }
+
 .firstblock .getcontrol {
     text-align: left;
     width: 561px;
     font-size: 30px;
     height: 71px;
 }
+
 .firstblock .descriptionbox {
     width: 545px;
 }
+
 .contactus {
     height: 783px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .contactus .process {
     display: flex;
     gap: 38px;
     flex-direction: column;
     height: 534px;
 }
+
 .contactus .services {
     background: rgba(255, 204, 74, 1);
     color: black;
 }
+
 .contactus .getcontrol {
     height: 52px;
 }
+
 .contactus .descriptionbox {
     height: 24px;
 }
+
 .contactus .mininame {
     width: 262px;
 }
+
 .contactus .processminiblock {
-   width: 330px;
-   height: 80px;
+    width: 330px;
+    height: 80px;
 }
+
 .formsname {
     font-family: 'Lato';
     font-weight: 400;
     font-size: 16px;
     width: 133px;
 }
+
 .firstform {
     height: 100px;
 }
+
 .forms {
     display: flex;
     width: 688px;
@@ -593,6 +664,7 @@ button {
     justify-content: center;
     height: 534px;
 }
+
 .form {
     margin-top: 8px;
     width: 318px;
@@ -602,9 +674,11 @@ button {
     border-radius: 54px;
     font-size: 16px;
 }
+
 input::placeholder {
     padding-left: 30px;
-} 
+}
+
 .form2 {
     margin-top: 8px;
     width: 666px;
@@ -613,9 +687,65 @@ input::placeholder {
     border-radius: 22px;
     font-size: 16px;
 }
+
 .form2::placeholder {
     padding-bottom: 50px;
 }
+<<<<<<< HEAD
+=======
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+[class*=flex-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.flex-betwen {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-collumn {
+    flex-direction: column;
+}
+
+.grow {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+>>>>>>> origin/Bondarenko
 @media (max-width: 768px) {
     .text {
         left: 197px;
@@ -623,6 +753,7 @@ input::placeholder {
         height: 200px;
         width: 420px;
     }
+<<<<<<< HEAD
     .heading {
     font-size: 30px;
     margin-left: 30px;
@@ -645,84 +776,198 @@ input::placeholder {
     .team {
         width: 100%;
     }
+=======
+
+    .heading {
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .buttonss {
+        gap: 10px;
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
+    .aboutteamblock {
+        margin-top: 0px;
+    }
+
+    .aboutteamimages {
+        display: none;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+>>>>>>> origin/Bondarenko
     .aboutteamh3 {
         width: 600px;
         text-align: center;
     }
+<<<<<<< HEAD
     .boldtext  {
         width: 600px;
         text-align: center;
     }
+=======
+
+    .boldtext {
+        width: 600px;
+        text-align: center;
+    }
+
+>>>>>>> origin/Bondarenko
     .normtext {
         width: 600px;
         text-align: center;
     }
+<<<<<<< HEAD
     .counter {
         margin-left: 110px;
     }
+=======
+
+    .counter {
+        margin-left: 110px;
+    }
+
+>>>>>>> origin/Bondarenko
     .servicesblock {
         gap: 35px;
         height: 2600px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Bondarenko
     .highblock {
         width: 600px;
         height: 200px;
     }
+<<<<<<< HEAD
     .services {
     width: 100%;
     height: 24px;
 }
+=======
+
+    .services {
+        width: 100%;
+        height: 24px;
+    }
+
+>>>>>>> origin/Bondarenko
     .highblock .getcontrol {
         width: 600px;
         height: 160px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Bondarenko
     .footblock {
         margin-top: 0px;
         width: 600px;
         height: 2200px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Bondarenko
     .processblock {
         flex-direction: column;
         height: 1800px;
     }
+<<<<<<< HEAD
     .process .getcontrol {
         text-align: center;
     }
     .process .descriptionbox {
         text-align: center;
     }
+=======
+
+    .process .getcontrol {
+        text-align: center;
+    }
+
+    .process .descriptionbox {
+        text-align: center;
+    }
+
+>>>>>>> origin/Bondarenko
     .processminiblock {
         width: 507px;
         justify-content: center;
     }
+<<<<<<< HEAD
     .processminiblock12 {
         align-items: center;
     }
+=======
+
+    .processminiblock12 {
+        align-items: center;
+    }
+
+>>>>>>> origin/Bondarenko
     .growingourclientsblock .getcontrol {
         text-align: center;
         width: 573px;
     }
+<<<<<<< HEAD
     .growingourclientsblock .services {
         width: 100%;
     }
     .growingourclientsblock .descriptionbox {
         text-align: center;
     }
+=======
+
+    .growingourclientsblock .services {
+        width: 100%;
+    }
+
+    .growingourclientsblock .descriptionbox {
+        text-align: center;
+    }
+
+>>>>>>> origin/Bondarenko
     .box {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+<<<<<<< HEAD
     .title {
         text-align: center;
     }
     .galleryblock {
         height: 300px;
     }
+=======
+
+    .title {
+        text-align: center;
+    }
+
+    .galleryblock {
+        height: 300px;
+    }
+
+>>>>>>> origin/Bondarenko
     .galleryhighblock {
         width: 700px;
         gap: 20px;
     }
+<<<<<<< HEAD
     .galleryhighblock1 {
         width: 460px;
     }
@@ -732,31 +977,67 @@ input::placeholder {
     .galleryhighblock1 .services {
         width: 100%;
     }
+=======
+
+    .galleryhighblock1 {
+        width: 460px;
+    }
+
+    .galleryblock .galleryhighblock .galleryhighblock2 .white {
+        padding-left: 20px;
+    }
+
+    .galleryhighblock1 .services {
+        width: 100%;
+    }
+
+>>>>>>> origin/Bondarenko
     .galleryhighblock1 .getcontrol {
         width: 500px;
         font-size: 30px;
         height: 80px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Bondarenko
     .galleryhighblock2 {
         width: 150px;
         padding-left: 0px;
         padding-top: 20px;
     }
+<<<<<<< HEAD
     .galleryimg {
         display: none;
     }
+=======
+
+    .galleryimg {
+        display: none;
+    }
+
+>>>>>>> origin/Bondarenko
     .booknowblock {
         width: 700px;
         height: 400px;
     }
+<<<<<<< HEAD
     .booknowblock img {
         display: none;
     }
+=======
+
+    .booknowblock img {
+        display: none;
+    }
+
+>>>>>>> origin/Bondarenko
     .booknowminiblock .getcontrol {
         font-size: 35px;
         text-align: center;
         height: 80px;
     }
+<<<<<<< HEAD
     .booknowminiblock .descriptionbox {
         text-align: center;
     }
@@ -766,21 +1047,52 @@ input::placeholder {
     .galleryhighblock2 .white {
         width: 150px;
     }
+=======
+
+    .booknowminiblock .descriptionbox {
+        text-align: center;
+    }
+
+    .yellowbutton {
+        margin-left: 112.5px;
+    }
+
+    .galleryhighblock2 .white {
+        width: 150px;
+    }
+
+>>>>>>> origin/Bondarenko
     .blog {
         margin-top: 70px;
         height: 800px;
     }
+<<<<<<< HEAD
     .blogfooter .firstblock {
         width: 300px;
     }
+=======
+
+    .blogfooter .firstblock {
+        width: 300px;
+    }
+
+>>>>>>> origin/Bondarenko
     .firstblock .getcontrol {
         width: 300px;
         height: 100px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Bondarenko
     .firstblock .descriptionbox {
         width: 300px;
         height: 115px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/Bondarenko
     .contactus {
         width: 750px;
         flex-direction: column;
@@ -788,6 +1100,7 @@ input::placeholder {
         gap: 30px;
         margin-top: 50px;
     }
+<<<<<<< HEAD
     .contactus .process {
         gap: 20px;
     }
@@ -797,10 +1110,26 @@ input::placeholder {
     .contactus .processminiblock {
         height: 70px;
     }
+=======
+
+    .contactus .process {
+        gap: 20px;
+    }
+
+    .roof .descriptionbox {
+        width: 600px;
+    }
+
+    .contactus .processminiblock {
+        height: 70px;
+    }
+
+>>>>>>> origin/Bondarenko
     .forms {
         flex-direction: column;
         height: 1000px;
     }
+<<<<<<< HEAD
     .forms .firstform {
         width: 100%;
     }
@@ -811,3 +1140,18 @@ input::placeholder {
         width: 100%;
     }
 }
+=======
+
+    .forms .firstform {
+        width: 100%;
+    }
+
+    .forms .form {
+        width: 100%;
+    }
+
+    .forms .black {
+        width: 100%;
+    }
+}
+>>>>>>> origin/Bondarenko
