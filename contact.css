@@ -289,11 +289,11 @@ input::placeholder {
 
 @media (max-width: 768px) {
     .bannerblock {
-        width: 500px;
-        top: 60%;
+        width: 70%;
+        top: 55%;
         padding-top: 20px;
         margin-left: 100px;
-        height: 139px;
+        height: 20%;
         gap: 10px;
     }
 
@@ -364,6 +364,13 @@ input::placeholder {
     }
     .roof .descriptionbox {
         width: 600px;
+        text-align: center;
+    }
+    .roof .services {
+        width: 100%;
+    }
+    .roof .getcontrol {
+        text-align: center;
     }
     .contactus .processminiblock {
         height: 70px;
