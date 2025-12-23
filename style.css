@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.banner {
+.banner,
+.bannerblock {
     width: 100%;
     position: relative;
+    height: 650px;
+}
+.banner {
+    width: 100%;
 }
 
 .text {
     background-color: rgba(255, 255, 255, 0.85);
     left: 197px;
-    top: 50%;
+    top: 35%;
     height: 395px;
     width: 551px;
     position: absolute;
@@ -691,8 +696,6 @@ input::placeholder {
 .form2::placeholder {
     padding-bottom: 50px;
 }
-<<<<<<< HEAD
-=======
 
 .container {
     max-width: 1200px;
@@ -745,15 +748,19 @@ input::placeholder {
     flex-grow: 1;
 }
 
->>>>>>> origin/Bondarenko
 @media (max-width: 768px) {
-    .text {
-        left: 197px;
-        top: 65%;
-        height: 200px;
-        width: 420px;
+    .bannerblock {
+        height: 20%;
     }
-<<<<<<< HEAD
+    .text {
+        left: 20%;
+        top: 20%;
+        height: 70%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     .heading {
     font-size: 30px;
     margin-left: 30px;
@@ -767,6 +774,9 @@ input::placeholder {
     padding-top: 20px;
     margin-left: 20px;
 }
+.aboutteam {
+    margin-top: 0;
+}
     .aboutteamblock {
         margin-top: 0px;
     }
@@ -776,7 +786,6 @@ input::placeholder {
     .team {
         width: 100%;
     }
-=======
 
     .heading {
         font-size: 30px;
@@ -806,168 +815,86 @@ input::placeholder {
         width: 100%;
     }
 
->>>>>>> origin/Bondarenko
     .aboutteamh3 {
         width: 600px;
         text-align: center;
     }
-<<<<<<< HEAD
-    .boldtext  {
-        width: 600px;
-        text-align: center;
-    }
-=======
 
     .boldtext {
         width: 600px;
         text-align: center;
     }
 
->>>>>>> origin/Bondarenko
     .normtext {
         width: 600px;
         text-align: center;
     }
-<<<<<<< HEAD
     .counter {
         margin-left: 110px;
     }
-=======
-
-    .counter {
-        margin-left: 110px;
-    }
-
->>>>>>> origin/Bondarenko
     .servicesblock {
         gap: 35px;
         height: 2600px;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/Bondarenko
     .highblock {
         width: 600px;
         height: 200px;
     }
-<<<<<<< HEAD
     .services {
     width: 100%;
     height: 24px;
 }
-=======
-
-    .services {
-        width: 100%;
-        height: 24px;
-    }
-
->>>>>>> origin/Bondarenko
     .highblock .getcontrol {
         width: 600px;
         height: 160px;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/Bondarenko
     .footblock {
         margin-top: 0px;
         width: 600px;
         height: 2200px;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/Bondarenko
     .processblock {
         flex-direction: column;
         height: 1800px;
     }
-<<<<<<< HEAD
     .process .getcontrol {
         text-align: center;
     }
     .process .descriptionbox {
         text-align: center;
     }
-=======
-
-    .process .getcontrol {
-        text-align: center;
-    }
-
-    .process .descriptionbox {
-        text-align: center;
-    }
-
->>>>>>> origin/Bondarenko
     .processminiblock {
         width: 507px;
         justify-content: center;
     }
-<<<<<<< HEAD
     .processminiblock12 {
         align-items: center;
     }
-=======
-
-    .processminiblock12 {
-        align-items: center;
-    }
-
->>>>>>> origin/Bondarenko
     .growingourclientsblock .getcontrol {
         text-align: center;
         width: 573px;
     }
-<<<<<<< HEAD
     .growingourclientsblock .services {
         width: 100%;
     }
     .growingourclientsblock .descriptionbox {
         text-align: center;
     }
-=======
-
-    .growingourclientsblock .services {
-        width: 100%;
-    }
-
-    .growingourclientsblock .descriptionbox {
-        text-align: center;
-    }
-
->>>>>>> origin/Bondarenko
     .box {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-<<<<<<< HEAD
     .title {
         text-align: center;
     }
     .galleryblock {
         height: 300px;
     }
-=======
-
-    .title {
-        text-align: center;
-    }
-
-    .galleryblock {
-        height: 300px;
-    }
-
->>>>>>> origin/Bondarenko
     .galleryhighblock {
-        width: 700px;
+        width: 100%;
         gap: 20px;
     }
-<<<<<<< HEAD
     .galleryhighblock1 {
         width: 460px;
     }
@@ -977,67 +904,31 @@ input::placeholder {
     .galleryhighblock1 .services {
         width: 100%;
     }
-=======
-
-    .galleryhighblock1 {
-        width: 460px;
-    }
-
-    .galleryblock .galleryhighblock .galleryhighblock2 .white {
-        padding-left: 20px;
-    }
-
-    .galleryhighblock1 .services {
-        width: 100%;
-    }
-
->>>>>>> origin/Bondarenko
     .galleryhighblock1 .getcontrol {
         width: 500px;
         font-size: 30px;
         height: 80px;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/Bondarenko
     .galleryhighblock2 {
         width: 150px;
         padding-left: 0px;
         padding-top: 20px;
     }
-<<<<<<< HEAD
     .galleryimg {
         display: none;
     }
-=======
-
-    .galleryimg {
-        display: none;
-    }
-
->>>>>>> origin/Bondarenko
     .booknowblock {
         width: 700px;
         height: 400px;
     }
-<<<<<<< HEAD
     .booknowblock img {
         display: none;
     }
-=======
-
-    .booknowblock img {
-        display: none;
-    }
-
->>>>>>> origin/Bondarenko
     .booknowminiblock .getcontrol {
         font-size: 35px;
         text-align: center;
         height: 80px;
     }
-<<<<<<< HEAD
     .booknowminiblock .descriptionbox {
         text-align: center;
     }
@@ -1047,75 +938,39 @@ input::placeholder {
     .galleryhighblock2 .white {
         width: 150px;
     }
-=======
-
-    .booknowminiblock .descriptionbox {
-        text-align: center;
-    }
-
-    .yellowbutton {
-        margin-left: 112.5px;
-    }
-
-    .galleryhighblock2 .white {
-        width: 150px;
-    }
-
->>>>>>> origin/Bondarenko
     .blog {
         margin-top: 70px;
         height: 800px;
     }
-<<<<<<< HEAD
     .blogfooter .firstblock {
         width: 300px;
     }
-=======
-
-    .blogfooter .firstblock {
-        width: 300px;
-    }
-
->>>>>>> origin/Bondarenko
     .firstblock .getcontrol {
         width: 300px;
         height: 100px;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/Bondarenko
     .firstblock .descriptionbox {
         width: 300px;
         height: 115px;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/Bondarenko
     .contactus {
-        width: 750px;
+        /* width: 750px; */
         flex-direction: column;
-        height: 1300px;
+        height: 1400px;
         gap: 30px;
         margin-top: 50px;
     }
-<<<<<<< HEAD
     .contactus .process {
         gap: 20px;
-    }
-    .roof .descriptionbox {
         width: 600px;
+        justify-content: center;
+        align-items: center;
     }
-    .contactus .processminiblock {
-        height: 70px;
+    .contactus .process .roof {
+        height: 160px;
     }
-=======
-
-    .contactus .process {
-        gap: 20px;
-    }
-
     .roof .descriptionbox {
         width: 600px;
     }
@@ -1124,23 +979,57 @@ input::placeholder {
         height: 70px;
     }
 
->>>>>>> origin/Bondarenko
+    .contactus .process {
+        gap: 20px;
+    }
+
+    .roof .descriptionbox {
+        width: 600px;
+    }
+
+    .contactus .processminiblock {
+        height: 70px;
+    }
+
+  
+  
+  
+  
+  
+  
+        height: 90px;
+    }
+    .contactus .processminiblock12 {
+        align-items: start;
+        height: 90px;
+    }
+        .contactus .processminiblock12 .mininame {
+            height: 50px;
+        }
+     .contactus .processminiblock12 .descriptionbox {
+        text-align: left;
+}
     .forms {
+        width: 100%;
         flex-direction: column;
         height: 1000px;
     }
-<<<<<<< HEAD
     .forms .firstform {
+        width: 90%;
+    }
+    .forms .secondform {
+        width: 90%;
+    }
+    .forms .form2 {
         width: 100%;
     }
     .forms .form {
         width: 100%;
     }
     .forms .black {
-        width: 100%;
+        width: 90%;
     }
 }
-=======
 
     .forms .firstform {
         width: 100%;
@@ -1154,4 +1043,3 @@ input::placeholder {
         width: 100%;
     }
 }
->>>>>>> origin/Bondarenko

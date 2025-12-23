@@ -236,8 +236,8 @@ input::placeholder {
 
 @media (max-width: 768px) {
     .bannerblock {
-        width: 500px;
-        top: 35%;
+        width: 80%;
+        top: 60%;
         padding-top: 20px;
         margin-left: 100px;
         height: 139px;
