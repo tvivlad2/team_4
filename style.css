@@ -97,9 +97,6 @@
     flex-direction: row-reverse;
 }
 
-.aboutteamblock {
-    /* margin-top: 126px; */
-}
 
 .aboutteamh3 {
     font-family: 'Cabin';
@@ -191,9 +188,6 @@ button {
     color: black;
     margin-left: 23px;
     margin-top: 0;
-}
-.aboutteamimages {
-    /* margin-top: 108px; */
 }
 
 .servicesblock {
