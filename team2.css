@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.bannerblock {
-    width: 100%;
-    position: relative;
-    height: 650px;
-}
 .banner {
     width: 100%;
+    position: relative;
 }
 
 .text {
     background-color: rgba(255, 255, 255, 0.85);
     left: 197px;
-    top: 35%;
+    top: 50%;
     height: 395px;
     width: 551px;
     position: absolute;
     border-radius: 30px;
 }
+
 .client {
     width: 100%;
 }
+
 .heading {
     font-family: 'Cabin';
     font-weight: 700;
@@ -42,12 +40,14 @@
 
 
 }
+
 .buttonss {
     display: flex;
     gap: 10px;
     padding-top: 20px;
     margin-left: 58px;
 }
+
 .black {
     background-color: rgb(24, 24, 24, 1);
     border-radius: 42px;
@@ -61,7 +61,7 @@
 }
 
 .white {
-    width: 202px; 
+    width: 202px;
     height: 60px;
     border-radius: 42px;
     border-color: rgba(128, 128, 128, 0.255);
@@ -97,6 +97,9 @@
     flex-direction: row-reverse;
 }
 
+.aboutteamblock {
+    margin-top: 126px;
+}
 
 .aboutteamh3 {
     font-family: 'Cabin';
@@ -108,6 +111,7 @@
     height: 107px;
     margin-top: 22px;
 }
+
 .team {
     font-family: 'Lato';
     font-weight: 400;
@@ -126,6 +130,7 @@
 button {
     cursor: pointer;
 }
+
 .boldtext {
     width: 373px;
     height: 54px;
@@ -135,6 +140,7 @@ button {
     font-size: 18px;
     line-height: 148%;
 }
+
 .normtext {
     width: 420px;
     height: 48px;
@@ -144,50 +150,15 @@ button {
     line-height: 148%;
     color: rgba(89, 85, 102, 1);
 }
+
 .counter {
     width: 380px;
     height: 130px;
     margin-top: 55px;
 }
-.rewievers {
-    width: 380px;
-    height: 130px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 17px;
-    margin-top: 55px;
-}
-.rewievers-horizontal {
-    display: flex;
-    width: 100%;
-    gap: 20px;
-}
-.rewievers-firstblock {
-    display: flex;
-    flex-wrap: wrap;
-    width: 170px;
-    height: 94px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(246, 246, 246, 1);
-    border-radius: 15px;
-}
-.rewievers-firstblock img {
-    margin-top: 15px;
-}
-.rewievers-firstblock .getcontrol {
-    width: 75px;
-    height: 35px;
-    font-size: 30px;
-    margin-left: 13px;
-    margin-top: 15px;
-}
-.rewievers-firstblock .descriptionbox {
-    width: 150px;
-    color: black;
-    margin-left: 23px;
-    margin-top: 0;
+
+.aboutteamimages {
+    margin-top: 108px;
 }
 
 .servicesblock {
@@ -199,12 +170,14 @@ button {
     align-items: center;
     width: 100%;
 }
+
 .highblock {
     display: flex;
     height: 136px;
     align-items: center;
     flex-direction: column;
 }
+
 .services {
     font-family: 'Lato';
     font-weight: 400;
@@ -219,6 +192,7 @@ button {
     border-radius: 20px;
     text-align: center;
 }
+
 .getcontrol {
     font-family: 'Cabin';
     font-weight: 700;
@@ -230,6 +204,7 @@ button {
     text-align: center;
     margin-top: 8px;
 }
+
 .footblock {
     margin-top: 38px;
     display: flex;
@@ -239,24 +214,28 @@ button {
     gap: 20px;
     justify-content: center;
 }
+
 .box {
     height: 324px;
     width: 387px;
     border-radius: 20px;
     background-color: rgba(235, 235, 235, 1);
 }
+
 .box1content {
     margin-left: 47px;
     margin-top: 49px;
 }
+
 .box2 {
     height: 324px;
     width: 387px;
     border-radius: 20px;
     background-color: rgba(24, 24, 24, 1);
     color: white;
-;
+    ;
 }
+
 .box2 .title {
     margin-top: 25px;
     width: 220px;
@@ -266,6 +245,7 @@ button {
     font-size: 25px;
     line-height: 115.99999999999999%;
 }
+
 .box2 .descriptionbox {
     margin-top: 10px;
     width: 293px;
@@ -276,6 +256,7 @@ button {
     line-height: 148%;
     color: rgb(255, 255, 255);
 }
+
 .title {
     margin-top: 25px;
     width: 252px;
@@ -285,6 +266,7 @@ button {
     font-size: 25px;
     line-height: 115.99999999999999%;
 }
+
 .descriptionbox {
     margin-top: 10px;
     width: 293px;
@@ -304,19 +286,23 @@ button {
     justify-content: center;
     width: 100%;
 }
+
 .process {
     height: 723px;
     width: 507px;
 }
+
 .process .getcontrol {
     width: 507px;
     height: 104px;
     text-align: left;
 }
+
 .process .descriptionbox {
     width: 488px;
     height: 72px;
 }
+
 .processminiblock {
     display: flex;
     gap: 16px;
@@ -324,11 +310,13 @@ button {
     align-items: center;
     height: 141px;
 }
+
 .processminiblock12 {
     display: flex;
     flex-direction: column;
 
 }
+
 .processminiblock .ellips {
     display: flex;
     justify-content: center;
@@ -339,6 +327,7 @@ button {
     line-height: 115.99999999999999%;
     background: rgba(255, 204, 74, 1);
 }
+
 .mininame {
     width: 149px;
     height: 23px;
@@ -347,10 +336,12 @@ button {
     font-size: 20px;
     line-height: 115.99999999999999%;
 }
+
 .processminiblock .descriptionbox {
     width: 331px;
     height: 52px;
 }
+
 .processminiblock .ellips2 {
     display: flex;
     justify-content: center;
@@ -387,19 +378,23 @@ button {
     width: 573px;
     height: 723px;
 }
+
 .growingourclientsblock .services {
     width: 319px;
     background: rgba(255, 204, 74, 1);
     color: black
 }
+
 .growingourclientsblock .getcontrol {
     text-align: left;
     width: 444px;
     height: 52px;
 }
+
 .growingourclientsblock .descriptionbox {
     width: 542px;
 }
+
 .square {
     width: 573px;
     display: flex;
@@ -408,18 +403,21 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 .square .box {
     width: 279px;
     height: 221px;
     text-align: left;
     background: rgba(250, 250, 250, 1);
     border: 1px solid;
-    border-color:rgba(234, 234, 234, 1);
+    border-color: rgba(234, 234, 234, 1);
     padding: 20px;
 }
+
 .square .descriptionbox {
     width: 233px;
 }
+
 .galleryblock {
     display: flex;
     flex-direction: column;
@@ -429,98 +427,61 @@ button {
     height: 1146px;
     background-color: black;
 }
+
 .galleryhighblock {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .galleryhighblock1 {
     width: 731px;
 }
+
 .galleryhighblock2 {
     width: 469px;
     padding-top: 55px;
     padding-left: 240px;
 }
+
 .galleryhighblock1 .getcontrol {
     width: 731px;
     color: white;
     text-align: left;
 }
+
 .galleryhighblock2 .white {
     width: 168px;
-   background: rgba(255, 204, 74, 1);
+    background: rgba(255, 204, 74, 1);
     text-align: center;
     padding-left: 30px;
     font-size: 18px;
     line-height: 160%;
 }
-.galleryblock-withimages {
-    width: 1199px;
-    height: 763px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-   background: rgba(250, 250, 250, 1);
-    border-radius: 30px;
-}
-.galleryblock1 {
-    width: 366.48px;
-    height: 344.05px;
-    background-image: url(images/galleryblock1.png);
-}
-.galleryblock2 {
-    margin-left: 26px;
-}
-.galleryblock1 .ellips {
-    background-image: linear-gradient(to top, rgba(221, 160, 3, 1), rgba(255, 233, 177, 1));
-    font-family: 'Cabin';
-    font-weight: 200;
-    font-size: 45px;
-line-height: 115.99999999999999%;
-display: flex;
-align-items: center;
-justify-content: center;
-padding-bottom: 5px;
-margin-top: 23px;
-margin-left: 281px;
-cursor: pointer;
-}
-.galleryblock1 .getcontrol {
-    font-size: 25px;
-    color: white;
-    width: 202px;
-    height: 29px;
-    margin-top: 179px;
-    margin-left: 20px;
-}
-.galleryblock1 .descriptionbox {
-    font-size: 16px;
-    color: rgba(255, 204, 74, 1);
-    width: 62px;
-    margin-top: 3px;
-    margin-left: 25px;
-}
+
 .maincounter {
     margin-top: 54px;
     display: flex;
     justify-content: center;
 }
+
 .counterblock {
     display: flex;
     width: 895px;
     justify-content: space-between;
 }
+
 .counterminiblock {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .counterminiblock .heading {
     margin: 0;
 }
+
 .cmb {
     width: 126px;
     height: 21px;
@@ -530,6 +491,7 @@ cursor: pointer;
     font-size: 18px;
     line-height: 115.99999999999999%;
 }
+
 .cmb1 {
     width: 138px;
     height: 21px;
@@ -539,6 +501,7 @@ cursor: pointer;
     font-size: 18px;
     line-height: 115.99999999999999%;
 }
+
 .clientfeedback {
     margin-top: 146px;
     display: flex;
@@ -546,78 +509,24 @@ cursor: pointer;
     align-items: center;
     gap: 143px;
 }
+
 .clientfeedback .services {
     width: 205px;
 }
+
 .footerblock {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 654px;
 }
-.footerblock .white {
-    width: 125px;
-    background-color: rgb(241, 241, 241);
-    border: 0;
-    gap: 7px;
-}
-.footerblock .white .ellips {
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nextyellow {
-    width: 125px;
-    background-color: rgb(241, 241, 241);
-    border: 0;
-    height: 60px;
-    border-radius: 42px;
-    font-family: 'Lato';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 160%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
- .nextyellow .ellips {
-    background-color:  rgba(255, 195, 43, 1);
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.userblock {
-    display: flex;
-    flex-direction: column;
-    width: 210px;
-    height: 291px;
-    align-items: center;
-    justify-content: center;
-}
-.userblockname {
-    font-family: 'Cabin';
-font-weight: 600;
-font-size: 20px;
-line-height: 115.99999999999999%;
-margin-top: 27px;
 
-}
-.userblockdescription {
-    font-family: 'Lato';
-font-weight: 600;
-font-size: 16px;
-line-height: 148%;
-color: rgba(78, 175, 78, 1);
-margin-top: 7px;
-}
 .booknow {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .booknowblock {
     border-radius: 30px;
     display: flex;
@@ -633,13 +542,15 @@ margin-top: 7px;
     color: white;
     text-align: left;
 }
+
 .booknowminiblock .descriptionbox {
     color: white;
     width: 427px;
 }
+
 .yellowbutton {
     margin-top: 21px;
-    width: 202px; 
+    width: 202px;
     height: 60px;
     border-radius: 42px;
     background-color: rgba(255, 204, 74, 1);
@@ -652,6 +563,7 @@ margin-top: 7px;
     justify-content: center;
     gap: 5px;
 }
+
 .blog {
     margin-top: 169px;
     background-color: rgba(245, 245, 245, 1);
@@ -662,17 +574,21 @@ margin-top: 7px;
     align-items: center;
     gap: 45px;
 }
+
 .blog .services {
     width: 74px;
 }
+
 .blog .getcontrol {
     color: black;
 }
+
 .blogfooter {
     display: flex;
     gap: 36px;
     justify-content: center;
 }
+
 .firstblock {
     display: flex;
     flex-direction: column;
@@ -680,106 +596,65 @@ margin-top: 7px;
     gap: 28px;
 
 }
+
 .firstblock .getcontrol {
     text-align: left;
     width: 561px;
     font-size: 30px;
     height: 71px;
 }
+
 .firstblock .descriptionbox {
     width: 545px;
 }
-.blogcardwithlines {
-    display: flex;
-    flex-direction: column;
-    width: 582px;
-    height: 95px;
-}
-.blogcard {
-    width: 582px;
-    height: 89px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.blogcardwithlines .blogcard img {
-    width:  11%;
-    height: 70%;
-}
-.blogcard .descriptionbox1 {
-    width: 100px;
-    height: 24px;
-    font-family: 'Lato';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 148%;
-    color: rgba(89, 85, 102, 1);
-}
-.blogcard .descriptionbox2 {
-    width: 14px;
-    height: 24px;
-    font-family: 'Lato';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 148%;
-    color: rgba(89, 85, 102, 1);
-}
-.black1 {
-    background-color: rgba(245, 245, 245, 1);
 
-    border-radius: 42px;
-    border: solid 1px rgb(170, 170, 170);
-    color: rgb(0, 0, 0);
-    width: 167px;
-    height: 61px;
-    font-family: 'Lato';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-}
-.blogcard .descriptionbox {
-    width: 135px;
-    margin-top: 0;
-    height: 24px;
-}
 .contactus {
     height: 783px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .contactus .process {
     display: flex;
     gap: 38px;
     flex-direction: column;
     height: 534px;
 }
+
 .contactus .services {
     background: rgba(255, 204, 74, 1);
     color: black;
 }
+
 .contactus .getcontrol {
     height: 52px;
 }
+
 .contactus .descriptionbox {
     height: 24px;
 }
+
 .contactus .mininame {
     width: 262px;
 }
+
 .contactus .processminiblock {
-   width: 330px;
-   height: 80px;
+    width: 330px;
+    height: 80px;
 }
+
 .formsname {
     font-family: 'Lato';
     font-weight: 400;
     font-size: 16px;
     width: 133px;
 }
+
 .firstform {
     height: 100px;
 }
+
 .forms {
     display: flex;
     width: 688px;
@@ -789,6 +664,7 @@ margin-top: 7px;
     justify-content: center;
     height: 534px;
 }
+
 .form {
     margin-top: 8px;
     width: 318px;
@@ -798,9 +674,11 @@ margin-top: 7px;
     border-radius: 54px;
     font-size: 16px;
 }
+
 input::placeholder {
     padding-left: 30px;
-} 
+}
+
 .form2 {
     margin-top: 8px;
     width: 666px;
@@ -809,284 +687,305 @@ input::placeholder {
     border-radius: 22px;
     font-size: 16px;
 }
+
 .form2::placeholder {
     padding-bottom: 50px;
 }
-@media (max-width: 768px) {
-    .bannerblock {
-        height: 20%;
-    }
-    .text {
-        left: 20%;
-        top: 20%;
-        height: 70%;
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .heading {
-    font-size: 30px;
-    margin-left: 30px;
-    margin-top: 25px;
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
 }
+
+[class*=flex-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.flex-betwen {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-collumn {
+    flex-direction: column;
+}
+
+.grow {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .text {
+        left: 197px;
+        top: 65%;
+        height: 200px;
+        width: 420px;
+    }
+
+    .heading {
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+
     .description {
         display: none;
-}
+    }
+
     .buttonss {
-    gap: 10px;
-    padding-top: 20px;
-    margin-left: 20px;
-}
-.aboutteam {
-    margin-top: 0;
-}
+        gap: 10px;
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
     .aboutteamblock {
         margin-top: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
+
     .aboutteamimages {
         display: none;
     }
+
     .team {
         width: 100%;
     }
+
     .aboutteamh3 {
         width: 600px;
         text-align: center;
     }
-    .boldtext  {
+
+    .boldtext {
         width: 600px;
         text-align: center;
     }
+
     .normtext {
         width: 600px;
         text-align: center;
     }
+
     .counter {
         margin-left: 110px;
     }
+
     .servicesblock {
         gap: 35px;
         height: 2600px;
     }
+
     .highblock {
         width: 600px;
         height: 200px;
     }
+
     .services {
-    width: 100%;
-    height: 24px;
-}
+        width: 100%;
+        height: 24px;
+    }
+
     .highblock .getcontrol {
         width: 600px;
         height: 160px;
     }
+
     .footblock {
         margin-top: 0px;
         width: 600px;
         height: 2200px;
     }
+
     .processblock {
         flex-direction: column;
         height: 1800px;
     }
+
     .process .getcontrol {
         text-align: center;
     }
+
     .process .descriptionbox {
         text-align: center;
     }
+
     .processminiblock {
         width: 507px;
         justify-content: center;
     }
+
     .processminiblock12 {
         align-items: center;
     }
+
     .growingourclientsblock .getcontrol {
         text-align: center;
         width: 573px;
     }
+
     .growingourclientsblock .services {
         width: 100%;
     }
+
     .growingourclientsblock .descriptionbox {
         text-align: center;
     }
+
     .box {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .title {
         text-align: center;
     }
+
     .galleryblock {
         height: 300px;
     }
+
     .galleryhighblock {
-        width: 100%;
+        width: 700px;
         gap: 20px;
     }
+
     .galleryhighblock1 {
         width: 460px;
     }
+
     .galleryblock .galleryhighblock .galleryhighblock2 .white {
         padding-left: 20px;
     }
+
     .galleryhighblock1 .services {
         width: 100%;
     }
+
     .galleryhighblock1 .getcontrol {
         width: 500px;
         font-size: 30px;
         height: 80px;
     }
+
     .galleryhighblock2 {
         width: 150px;
         padding-left: 0px;
         padding-top: 20px;
     }
-    .galleryblock-withimages {
+
+    .galleryimg {
         display: none;
     }
+
     .booknowblock {
         width: 700px;
         height: 400px;
     }
+
     .booknowblock img {
         display: none;
     }
+
     .booknowminiblock .getcontrol {
         font-size: 35px;
         text-align: center;
         height: 80px;
     }
+
     .booknowminiblock .descriptionbox {
         text-align: center;
     }
+
     .yellowbutton {
         margin-left: 112.5px;
     }
+
     .galleryhighblock2 .white {
         width: 150px;
     }
+
     .blog {
         margin-top: 70px;
         height: 800px;
     }
+
     .blogfooter .firstblock {
         width: 300px;
     }
+
     .firstblock .getcontrol {
         width: 300px;
         height: 100px;
-        text-align: center;
     }
+
     .firstblock .descriptionbox {
         width: 300px;
         height: 115px;
-        text-align: center;
     }
-    .blogcardwithlines {
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    height: 95px;
-}
-.blogcard {
-    width: 100%;
-    height: 89px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blogcardwithlines .blogcard img {
-    display: none;
-}
-.blogcard .descriptionbox1 {
-    display: none;
-}
-.blogcard .descriptionbox2 {
-    display: none;
-}
-.blogcard .descriptionbox {
-    display: none;
-}
-.black1 {
-    background-color: rgba(245, 245, 245, 1);
-    border-radius: 42px;
-    border: solid 1px rgb(170, 170, 170);
-    color: rgb(0, 0, 0);
-    width: 167px;
-    height: 61px;
-    font-family: 'Lato';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-}
-.blogcard .descriptionbox {
-    width: 135px;
-    margin-top: 0;
-    height: 24px;
-}
+
     .contactus {
-        /* width: 750px; */
+        width: 750px;
         flex-direction: column;
-        height: 1400px;
+        height: 1300px;
         gap: 30px;
         margin-top: 50px;
     }
+
     .contactus .process {
         gap: 20px;
-        width: 600px;
-        justify-content: center;
-        align-items: center;
     }
-    .contactus .process .roof {
-        height: 160px;
-    }
+
     .roof .descriptionbox {
         width: 600px;
     }
-    .roof .getcontrol {
-        width: 100%;
-    }
 
     .contactus .processminiblock {
-        height: 90px;
+        height: 70px;
     }
-    .contactus .processminiblock12 {
-        align-items: start;
-        height: 90px;
-    }
-        .contactus .processminiblock12 .mininame {
-            height: 50px;
-        }
-     .contactus .processminiblock12 .descriptionbox {
-        text-align: left;
-     }
+
     .forms {
-        width: 100%;
         flex-direction: column;
         height: 1000px;
     }
+
     .forms .firstform {
-        width: 90%;
-    }
-    .forms .secondform {
-        width: 90%;
-    }
-    .forms .form2 {
         width: 100%;
     }
+
     .forms .form {
         width: 100%;
     }
+
     .forms .black {
-        width: 90%;
+        width: 100%;
     }
 }
